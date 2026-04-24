@@ -13,3 +13,35 @@ A Linux system introspection toolkit that collects and analyzes low-level hardwa
   <li>Outputs a structured, human-readable system report to standard output.</li>
   <li>Designed for low-level environments with minimal abstraction layers.</li>
 </ul>
+
+<h1>Notes</h1>
+This program prioritizes the use of standard, widely available Linux utilities wherever possible to minimize external dependencies. Optional tools are only used when available, with fallback methods implemented using core system interfaces.
+
+
+<h2>Dependencies</h2>
+<ul>
+  <li>dmidecode</li>
+  <li>lshw</li>
+  <li>hdparm</li>
+  <li>sed</li>
+  <li>awk</li>
+</ul>
+
+
+
+And then run the script
+./sysinspect
+
+<h1>Installation</h1>
+Clone or download the script, then make it executable:
+
+```bash
+git clone https://github.com/ripper079/sysinspect.git
+cd <your-repo-folder>
+chmod +x sysinspect.sh  
+```
+And then run the script
+
+```bash
+./sysinspect
+```
