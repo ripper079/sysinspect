@@ -33,7 +33,7 @@ Clone or download the script, then make it executable:
 
 ```bash
 git clone https://github.com/ripper079/sysinspect.git
-cd <your-repo-folder>
+cd sysinspect
 chmod +x sysinspect.sh  
 ```
 And then run the script
