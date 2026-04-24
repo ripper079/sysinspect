@@ -26,11 +26,7 @@ This program prioritizes the use of standard, widely available Linux utilities w
   <li>sed</li>
   <li>awk</li>
 </ul>
-
-
-
-And then run the script
-./sysinspect
+These packages are commonly included in default installations or available through official package repositories. The script relies on these utilities and must be installed/present before running the script
 
 <h1>Installation</h1>
 Clone or download the script, then make it executable:
