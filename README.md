@@ -43,5 +43,5 @@ chmod +x sysinspect.sh
 And then run the script
 
 ```bash
-./sysinspect
+sudo ./sysinspect.sh
 ```
