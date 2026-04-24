@@ -4,6 +4,7 @@ A Linux system introspection toolkit that collects and analyzes low-level hardwa
 <h1>Features</h1>
 <ul>
 <li>Performs deep system inspection of hardware devices using native Linux interfaces.</li>
+  <li>Reports active kernel drivers for detected hardware devices</li>
   <li>Collects and reports CPU, memory, storage, GPU, and input device information.</li>
   <li>Detects and classifies storage devices (SATA, NVMe) with interface identification.</li>
   <li>Extracts detailed hardware metadata (model, capacity, topology).</li>
